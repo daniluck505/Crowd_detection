@@ -1,0 +1,13 @@
+video_path: videos/test.mp4
+save_path: videos/out
+save_name: out.mp4
+model_weights: yolo11m.pt
+imgsz: 640
+conf: 0.6
+iou: 0.5
+sort: True
+max_age: 100
+min_hits: 10
+iou_threshold: 0.5
+show_ids: True
+
