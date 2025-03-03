@@ -10,22 +10,28 @@
 
 Для запуска программы необходимо выполнить следующие шаги:
 
-0. Клонировать репозиторий
+1. Клонировать репозиторий
     ```bash
     git clone https://github.com/daniluck505/Crowd_detection.git\
     cd Crowd_detection
     ```
-1. Установите необходимые библиотеки из файла `requirements.txt`:
+2. Установите необходимые библиотеки из файла `requirements.txt`:
     ```bash
     pip install -r requirements.txt
     ```
-2. Настройте конфигурационный файл `config.yml` в соответствии с вашими требованиями.
-3. Запустите скрипт `crowd_detection.py`:
+3. Настройте конфигурационный файл `config.yml` в соответствии с вашими требованиями.
+4. Запустите скрипт `crowd_detection.py`:
     ```bash
     python crowd_detection.py
     ```
 
 ## Примеры работы
-<video controls autoplay loop src="https://github.com/daniluck505/Crowd_detection/blob/master/videos/out/final.mp4" width="100%"></video>
+|yolo11m|pre-trained yolo11m|
+|-------|-------------------|
+|yolo11m + SORT|pre-trained yolo11m + SORT|
+
+
+https://github.com/user-attachments/assets/b77623fd-0750-4844-a9d1-1abbf45e2c72
+
 
 
