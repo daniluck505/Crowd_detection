@@ -1,0 +1,7 @@
+names:
+- person
+nc: 1
+path: my_dataset_yolo
+train: images/train
+val: images/val
+test: images/test
